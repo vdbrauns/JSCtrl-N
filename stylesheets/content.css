@@ -129,30 +129,90 @@ body
 }
 
 .icon1{
-  grid-row: 13/53 ;
-  grid-column: 10/20;
+  grid-row: 13/27;
+  grid-column: 10/18;
 }
 .icon2{
-  grid-row: 13/53 ;
-  grid-column: 22/32;
+  grid-row: 13/27;
+  grid-column: 22/31;
 }
 .icon3{
-  grid-row: 47/38;
-  grid-column: 10/20;
+  grid-row: 39/51;
+  grid-column: 11/19;
 }
 .icon4{
-  grid-row: 47/38 ;
-  grid-column: 22/32;
+  grid-row: 37/51 ;
+  grid-column: 23/31;
 }
 .icon5{
-  grid-row: 28/40;
+  grid-row: 28/42;
   grid-column: 79/87;
 }
 .icon6{
-  grid-row: 47/56;
+  grid-row: 47/64;
   grid-column: 68/76;
 }
 .icon7{
   grid-row: 55/70;
   grid-column: 77/87;
+}
+.k
+{
+position: relative;
+font-size: 27px;
+font-family: tahoma;
+color:#FFFFFF;
+grid-row: 30/34;
+grid-column: 11/18;
+}
+.b
+{
+position: relative;
+font-size: 27px;
+font-family: tahoma;
+color:#FFFFFF;
+grid-row: 30/34;
+grid-column: 23/30;
+}
+.c
+{
+position: relative;
+font-size: 27px;
+font-family: tahoma;
+color:#FFFFFF;
+grid-row: 53/57;
+grid-column: 13/20;
+}
+.p
+{
+position: relative;
+font-size: 27px;
+font-family: tahoma;
+color:#FFFFFF;
+grid-row: 53/57;
+grid-column: 25/30;
+}
+.t1
+{
+  font-size: 27px;
+  font-family: tahoma;
+  color:#FFFFFF;
+  grid-row: 44/47;
+  grid-column: 80/85
+}
+.t2
+{
+  font-size: 27px;
+  font-family: tahoma;
+  color:#FFFFFF;
+  grid-row: 72/75;
+  grid-column: 78/85;
+}
+.t3
+{
+  font-size: 27px;
+  font-family: tahoma;
+  color:#FFFFFF;
+  grid-row: 63/66;
+  grid-column: 69/75;
 }
