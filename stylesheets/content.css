@@ -145,6 +145,14 @@ body
   grid-column: 22/32;
 }
 .icon5{
-  grid-row: 47/38 ;
-  grid-column: 22/32;
+  grid-row: 28/40;
+  grid-column: 79/87;
+}
+.icon6{
+  grid-row: 47/56;
+  grid-column: 68/76;
+}
+.icon7{
+  grid-row: 55/70;
+  grid-column: 77/87;
 }
