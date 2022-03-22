@@ -18,6 +18,7 @@ body
   font-family: 'tahomabd';
   src: url('../fonts/tahomabd.ttf');
 }
+/* главный див */
 #desktop
 {
   background-color:
@@ -27,6 +28,7 @@ body
   grid-template-columns: repeat(100,1%);
   grid-template-rows: repeat(100, 1%);
 }
+/* див меню */
 #menu
 {
   width: 100%;
@@ -43,19 +45,110 @@ body
   border-color: #FFFFFF;
   display: grid;
 }
-#pusk
+/* кнопка меню */
+.start-button
 {
-  width: 100%;
-  height: 100%;
-  grid-row: 91/100;
+  background-color: #0006FF;
+  width: 110px;
+  height: 69px;
+  grid-row: 92/97;
   grid-column: 2/9;
 }
+.logoot
+{
+  margin-top: 3px;
+}
+/* <!-- вылетающие меню --> */
+.myModal
+{
+  box-sizing: border-box;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #0006FF;
+  z-index: 100;
+  grid-row: 58/90;
+  grid-column: 2/32;
+  background-color: #0006FF;
+  border-style: solid;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-left-width: 4px;
+  border-color: #FFFFFF;
+}
+#myOverlay {
+z-index: 37;
+position: fixed;
+width: 100%; height: 100%;
+top: 0; left: 0;
+cursor: pointer;
+display: none;
+}
+.showover{
+  display: block;
+}
+/* наполенени меню */
+.hse
+{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.myname
+{
+
+  font-size: 24px;
+  font-family: tahoma;
+  color:#FFFFFF;
+}
+.m
+{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.line
+{
+  height: 1px;
+  background-color:#FFFFFF;
+  width: 389px;
+}
+.AP
+{
+  margin-top: 3%;
+  margin-left: 5%;
+  font-size: 24px;
+  font-family: tahoma;
+  color:#FFFFFF;
+}
+.line2
+{
+  height: 1px;
+  background-color:#FFFFFF;
+  width: 389px;
+}
+.group
+{
+  font-size: 24px;
+  font-family: tahoma;
+  color:#FFFFFF;
+}
+.g
+{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.line3
+{
+  height: 1px;
+  background-color:#FFFFFF;
+  width: 389px;
+}
+/* часы */
 #time
 {
   width: 100%;
   height: 100%;
-  grid-row: 94/100 ;
-  grid-column: -9/-2;
+  grid-row: 94/97 ;
+  grid-column: -9/-1;
 }
 #ru
 {
@@ -113,6 +206,7 @@ body
   font-family: tahoma;
   font-size: 30px;
 }
+/* текст описание */
 .text1
 {
   position: relative;
@@ -127,7 +221,7 @@ body
   grid-row: 63/85;
   grid-column: 10/70;
 }
-
+/* иконки */
 .icon1{
   grid-row: 13/27;
   grid-column: 10/18;
@@ -215,4 +309,32 @@ grid-column: 25/30;
   color:#FFFFFF;
   grid-row: 63/66;
   grid-column: 69/75;
+}
+/* ошибка-вирус */
+#error
+{
+  display: none;
+  background-color:#0000FF;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(100,1%);
+  grid-template-rows: repeat(100, 1%);
+
+}
+.dino
+{
+  width: 3500%;
+  height: 3500%;
+  margin-left: 465px;
+  margin-top: 230px;
+
+}
+.fail
+{
+      font-size: 30px;
+      font-family: F77 Minecraft;
+      color:#FFFFFF;
+      grid-row: 73/76;
+      grid-column: 43/60;
 }

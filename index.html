@@ -4,39 +4,60 @@
     <meta charset="utf-8">
     <title>Ctrl+N</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!-- JQ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery-3.6.0.js"></script>
   </head>
   <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JS -->
   <script src="java.js"></script>
-
+    <!-- основной див -->
   <section id="desktop">
-    <div id="menu">
-    </div>
-    <div id="pusk">
-      <img src="img/logoctrln.svg">
-    </div>
-    <div id="time">
-      <div class="clock">
+    <!-- див меню -->
+    <div id="menu"></div>
+    <!-- кнопка ctrl -->
+    <button class="start-button">
+    <img src="img/logo.svg" class="logoot butt">
+    </button>
+    <!-- вылетающие меню -->
+  <div class="myModal">
+ <p class="m"><a class="myname" href="https://portfolio.hse.ru/Student/17645">Виолетта Браунс</a></p>
+    <hr class="line">
+    <h1 class="AP">Арт практика</h1>
+    <hr class="line2">
+    <p class="g"><a class="group" href="https://design.hse.ru/groups/6052">Б21ДЗ08</a></p>
+    <hr class="line3">
+    <img class="hse" src="img/hselogo.svg">
+  </div>
+  <div id="myOverlay"></div>
+   <!-- часы js -->
+  <div id="time">
+  <div class="clock">
                <ul>
                 <li id="hours">00</li>
                 <li id="separator">:</li>
                 <li id="minutes">00</li>
               </ul>
-      </div>
-     </div>
-     <div id="ru">
-       <h1 class="ru">РУ</h1>
-     </div>
-     <div id="discrioption">
-       <div class="text1">
-               <p>чтобы докоснуться до мира своих<br>
-                   мечт, конечно, можно прийти в VR<br>
-                   и погрузитья в уникальное<br>
-                   путешествие , но иногда это можно<br>
-                   осуществить просто покопавшись<br>
-                   в компьютере. <p>
-        </div>
-     </div>
+  </div>
+  <!-- язык -->
+  </div>
+  <div id="ru">
+  <h1 class="ru">РУ</h1>
+  </div>
+  <!-- описание -->
+  <div id="discrioption">
+    <div class="text1">
+        <p>чтобы докоснуться до мира своих<br>
+        мечт, конечно, можно прийти в VR<br>
+        и погрузитья в уникальное<br>
+        путешествие , но иногда это можно<br>
+        осуществить просто покопавшись<br>
+        в компьютере. <p>
+    </div>
+   </div>
+
+   <!-- иконки -->
       <div class="icon icon1">
             <img src="img/korzina.svg">
       </div>
@@ -56,8 +77,9 @@
            <img src="img/pic2.svg">
      </div>
      <div class="icon icon7">
-           <img src="img/virus.svg">
+           <img class="virus12" src="img/virus.svg">
      </div>
+     <!-- названия -->
          <p class="k"> корзина </p>
          <p class="b"> блокнот </p>
          <p class="c"> ctrl+n </p>
@@ -65,9 +87,13 @@
          <p class="t1"> фото </p>
           <p class="t2"> #&!!!+? </p>
           <p class="t3"> фото </p>
-
-
   </section>
-
+<!-- файл ошибки-вируса -->
+  <section id="error">
+      <div class="dinoz">
+        <img class="dino" src="img/dino.svg">
+      </div>
+        <h1 class="fail">ФАЙЛ УТЕРЯН </h1>
+  </section>
   </body>
 </html>

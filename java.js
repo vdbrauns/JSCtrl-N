@@ -1,3 +1,4 @@
+// часы
 window.onload = function() {
   setInterval(function() {
 
