@@ -310,6 +310,147 @@ grid-column: 25/30;
   grid-row: 63/66;
   grid-column: 69/75;
 }
+/* корзина */
+.framekorzina
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
+
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 10;
+  grid-row: 24/65;
+  grid-column: 10/51;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover1
+{
+  display: block;
+}
+.cloose1
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.notfound
+{
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.ftext
+{
+  margin-left: 27px;
+  margin-top: 13px;
+}
+.notfoundtext
+{
+  width: 20%;
+  height: 20%;
+}
+.namekorzina
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -246px;
+}
+/* фото 1 */
+.framegraf
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 3;
+  grid-row: 28/74;
+  grid-column: 25/50;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover2
+{
+  display: block;
+}
+.win2
+{
+  width: 583px;
+  height: 374px;
+}
+.cloose2
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.win2
+{
+  width: 583px;
+  height: 374px;
+}
+.namegraf
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -400px;
+}
+
+/* фото 2 */
+.framepic
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 3;
+  grid-row: 15/63;
+  grid-column: 50/93;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover3
+{
+  display: block;
+}
+.win3
+{
+  width: 583px;
+  height: 374px;
+}
+.cloose3
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.namepic
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -400px;
+}
+
+
+
+
+
+
+
 /* ошибка-вирус */
 #error
 {
