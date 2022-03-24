@@ -90,8 +90,8 @@ display: none;
 /* наполенени меню */
 .hse
 {
-  margin-top: 10%;
-  margin-left: 5%;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 .myname
 {
@@ -291,24 +291,21 @@ grid-column: 25/30;
   font-size: 27px;
   font-family: tahoma;
   color:#FFFFFF;
-  grid-row: 44/47;
-  grid-column: 80/85
+  margin-left: 20px;
 }
 .t2
 {
   font-size: 27px;
   font-family: tahoma;
   color:#FFFFFF;
-  grid-row: 72/75;
-  grid-column: 78/85;
+  margin-left: 20px;
 }
 .t3
 {
   font-size: 27px;
   font-family: tahoma;
   color:#FFFFFF;
-  grid-row: 63/66;
-  grid-column: 69/75;
+  margin-left: 20px;
 }
 /* корзина */
 .framekorzina
@@ -444,12 +441,134 @@ grid-column: 25/30;
   color:#FFFFFF;
   margin-top: -400px;
 }
+/* блокнот */
+.framenote
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
 
-
-
-
-
-
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 10;
+  grid-row: 14/65;
+  grid-column: 40/80;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover5
+{
+  display: block;
+}
+.cloose4
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.namenote
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -23px;
+}
+.textnote
+{
+  font-size: 24px;
+  font-family: tahoma;
+  color:#0000FF;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+textarea {
+  width: 581px;
+      height: 277px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #f8f8f8;
+      border-radius: 4px;
+      background-color: #ffffff;
+      font-size: 20px;
+      color: #0000FF;
+      resize: none;
+}
+/* ctrl папка */
+.framectrl
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 3;
+  grid-row: 15/63;
+  grid-column: 50/93;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover6
+{
+  display: block;
+}
+.cloose6
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.namectrl
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -220px;
+}
+.ctrlnn
+{
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.cttext
+{
+  font-family: tahoma;
+  font-size: 22px;
+  color: #0000FF;
+  margin-left: 53px;
+  margin-top: 12px;
+}
+.ctrlnn1
+{
+  margin-top: -80px;
+  margin-left: 89px;
+}
+.cttext1
+{
+  font-family: tahoma;
+  font-size: 22px;
+  color: #0000FF;
+  margin-left: 203px;
+  margin-top: 12px;
+}
+.ctrlnn2
+{
+  margin-top: -80px;
+  margin-left: 158px;
+}
+.cttext2
+{
+  font-family: tahoma;
+  font-size: 22px;
+  color: #0000FF;
+  margin-left: 337px;
+  margin-top: 12px;
+}
 
 /* ошибка-вирус */
 #error

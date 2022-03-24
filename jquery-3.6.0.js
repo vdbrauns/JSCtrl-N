@@ -1,3 +1,7 @@
+$( function() {
+$( ".draggable" ).draggable();
+} );
+
 // меню ctrl//
 $(document).ready(function(){
   $(".butt").click(function(){
@@ -28,8 +32,7 @@ $(document).ready(function(){
 })
 $(document).ready(function(){
   $(".close1").click(function(){
-    $(".framekorzina").css("display","none");
-    $("#desktop").css("display","grid");
+      $(".framekorzina").toggleClass("showover1");
   })
 })
 
@@ -42,8 +45,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".close2").click(function(){
-    $(".framegraf").css("display","none");
-    $("#desktop").css("display","grid");
+    $(".framegraf").toggleClass("showover2");
   })
 })
 // фото 2
@@ -55,7 +57,30 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".close3").click(function(){
-    $(".framepic").css("display","none");
-    $("#desktop").css("display","grid");
+    $(".framepic").toggleClass("showover3")
+  })
+})
+// блокнот
+$(document).ready(function(){
+  $(".note4").click(function(){
+    $(".framenote").toggleClass("showover5");
+  })
+})
+$(document).ready(function(){
+  $(".close4").click(function(){
+      $(".framenote").toggleClass("showover5");
+  })
+})
+
+// ctrl
+$(document).ready(function(){
+  $(".ctrlp").click(function(){
+    $(".framectrl").toggleClass("showover6");
+  })
+})
+
+$(document).ready(function(){
+  $(".close6").click(function(){
+    $(".framectrl").toggleClass("showover6")
   })
 })

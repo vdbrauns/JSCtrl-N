@@ -8,6 +8,8 @@
     <!-- JQ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   </head>
   <body>
     <!-- JS -->
@@ -62,34 +64,37 @@
             <img class="korzina" src="img/korzina.svg">
       </div>
       <div class="icon icon2">
-            <img src="img/note.svg">
+            <img class="note4" src="img/note.svg">
       </div>
       <div class="icon icon3">
-            <img src="img/folder.svg">
+            <img class="ctrlp" src="img/folder.svg">
       </div>
       <div class="icon icon4">
             <img src="img/paint.svg">
      </div>
-     <div class="icon icon5">
+     <div class="icon icon5 draggable">
            <img class="picfile1" src="img/pic1.svg">
+           <p class="t1"> фото </p>
      </div>
-     <div class="icon icon6">
+     <div class="icon icon6 draggable">
            <img class="picfile2" src="img/pic2.svg">
+             <p class="t3"> фото </p>
      </div>
-     <div class="icon icon7">
+     <div class="icon icon7 draggable">
            <img class="virus12" src="img/virus.svg">
+           <p class="t2"> #&!!!+? </p>
      </div>
      <!-- названия -->
          <p class="k"> корзина </p>
          <p class="b"> блокнот </p>
          <p class="c"> ctrl+n </p>
          <p class="p"> paint </p>
-         <p class="t1"> фото </p>
-          <p class="t2"> #&!!!+? </p>
-          <p class="t3"> фото </p>
+
+
+
 
 <!-- корзина -->
-<div class="framekorzina">
+<div class="framekorzina draggable">
         <div class="cloose1">
         <img class="close1" src="img/close1.svg">
         </div>
@@ -102,7 +107,7 @@
        </div>
 </div>
 <!-- фото 1 -->
-<div class="framegraf">
+<div class="framegraf draggable">
        <div class="cloose2">
         <img class="close2" src="img/close1.svg">
         </div>
@@ -112,7 +117,7 @@
        </div>
 </div>
 <!-- фото 2 -->
-<div class="framepic">
+<div class="framepic draggable">
        <div class="cloose3">
         <img class="close3" src="img/close1.svg">
         </div>
@@ -121,6 +126,39 @@
         <h1>фото</h1>
        </div>
 </div>
+<!-- блокнот -->
+<div class="framenote draggable">
+        <div class="cloose4">
+        <img class="close4" src="img/close1.svg">
+        </div>
+        <div class="namenote">
+        <h1>блокнот</h1>
+       </div>
+       <div class="textnote">
+       <h1>Напиши здесь свою детскую мечту.</h1>
+      </div>
+      <div class="write">
+
+<form>
+<textarea>Когда я был(а) маленькой...</textarea>
+</form>
+      </div>
+</div>
+
+<!--ctrl папка -->
+<div class="framectrl draggable">
+       <div class="cloose6">
+        <img class="close6" src="img/close1.svg">
+        </div>
+
+
+        <div class="namectrl">
+        <h1>ctrl+n</h1>
+       </div>
+</div>
+<!-- ctrl+n -->
+
+<!-- фото ctrl -->
 
 
   </section>
