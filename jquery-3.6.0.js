@@ -120,3 +120,17 @@ $(document).ready(function(){
     $(".frameopros").toggleClass("showover9")
   })
 })
+// ctrl отмена
+$(document).ready(function(){
+  $(".buttoncancel").click(function(){
+    $(".frameopros").css("display","none");
+    $("#desktop").css("display","grid");
+  })
+})
+// ctrl готово
+$(document).ready(function(){
+  $(".buttondone").click(function(){
+    $(".frameopros").css("display","none");
+    $("#desktop").css("display","grid");
+  })
+})

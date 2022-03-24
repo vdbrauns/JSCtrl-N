@@ -750,6 +750,14 @@ textarea {
   font-family: tahoma;
   color: #0000FF;
 }
+.showover10
+{
+  display: block;
+}
+.showover11
+{
+  display: block;
+}
 
 /* ошибка-вирус */
 #error
