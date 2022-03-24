@@ -728,6 +728,7 @@ textarea {
     margin-left: 299px;
     border-width: 3px;
     border-color: #0000FF;
+    position: relative;
 }
 .buttondone
 {
@@ -737,6 +738,7 @@ textarea {
     margin-left: 20px;
     border-width: 3px;
     border-color: #0000FF;
+    position: relative;
 }
 .cancel
 {
@@ -758,22 +760,52 @@ textarea {
 {
   display: block;
 }
-.g
-{
 
-}
-.button1
-{
-  width: 36px;
+.button1 {
+width: 36px;
 height: 36px;
 border-radius: 50%;
-  background-color: #FFFF;
+background-color: #FFFF;
+margin-left: 205px;
+position: relative;
+top: -347px;
+border-width: 6px;
+border-color: #0000FF;
+overflow: hidden;
+}
+.button1::before,
+.button1::after
+{
+  position: absolute;
+  content:;
+  width: 100%;
+  height: 100%;
+  background-color: #0000FF;
+  top: 0;
+  left: -100%;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.button1:hover::before,
+.button1:hover::after
+{
+  left: 0;
+}
+.button1::after{
+  opacity: 1;
+  transition-delay: 1s;
+}
 
-margin-left: 240px;
-margin-top: -49px;
-
-    border-width: 6px;
-    border-color: #0000FF;
+.button2 {
+width: 36px;
+height: 36px;
+border-radius: 50%;
+background-color: #FFFF;
+left: 240px;
+position: absolute;
+top: 245px;
+border-width: 6px;
+border-color: #0000FF;
 }
 
 
