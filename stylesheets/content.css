@@ -657,8 +657,8 @@ textarea {
 .frameopros
 {
   box-sizing: border-box;
-  width: 612px;
-  height: 415px;
+  width: 707px;
+  height: 580px;
   background-color: #FFFFFF;
   display: none;
   z-index: 3;
@@ -678,7 +678,7 @@ textarea {
 .cloose9
 {
   margin-top: -31px;
-  margin-left: 498px;
+  margin-left: 591px;
 }
 .nameopros
 {
@@ -687,7 +687,69 @@ textarea {
   color:#FFFFFF;
   margin-top: -24px;
 }
-
+.dis
+{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.textnn
+{
+  font-size: 24px;
+  font-family: tahomabd;
+  color:#0000FF;
+  margin-top: -449px;
+  margin-left: 244px;
+}
+.vr1
+{
+  font-size: 22px;
+  width: 370px;
+  font-family: tahoma;
+  color: #0000FF;
+  margin-top: 40px;
+  margin-left: 294px;
+}
+.vr2
+{
+  font-size: 22px;
+  width: 370px;
+  font-family: tahoma;
+  color: #0000FF;
+  margin-top: 40px;
+  margin-left: 294px;
+}
+/* кнопка 1 */
+.buttoncancel
+{
+  background-color: #FFFF;
+    width: 140px;
+    height: 48px;
+    margin-top: 135px;
+    margin-left: 299px;
+    border-width: 3px;
+    border-color: #0000FF;
+}
+.buttondone
+{
+    background-color: #FFFF;
+    width: 140px;
+    height: 48px;
+    margin-left: 20px;
+    border-width: 3px;
+    border-color: #0000FF;
+}
+.cancel
+{
+  font-size: 22px;
+  font-family: tahoma;
+  color: #0000FF;
+}
+.done
+{
+  font-size: 22px;
+  font-family: tahoma;
+  color: #0000FF;
+}
 
 /* ошибка-вирус */
 #error
