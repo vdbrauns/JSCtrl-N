@@ -758,6 +758,24 @@ textarea {
 {
   display: block;
 }
+.g
+{
+
+}
+.button1
+{
+  width: 36px;
+height: 36px;
+border-radius: 50%;
+  background-color: #FFFF;
+
+margin-left: 240px;
+margin-top: -49px;
+
+    border-width: 6px;
+    border-color: #0000FF;
+}
+
 
 /* ошибка-вирус */
 #error
