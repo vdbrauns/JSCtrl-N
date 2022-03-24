@@ -528,47 +528,166 @@ textarea {
   font-size: 20px;
   font-family: F77 Minecraft;
   color:#FFFFFF;
-  margin-top: -220px;
+  margin-top: -23px;
 }
-.ctrlnn
+/* file */
+.descriptionapp
 {
-  margin-top: 35px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.descriptionapptext
+{
+  margin-top: 10px;
   margin-left: 35px;
-}
-.cttext
-{
-  font-family: tahoma;
   font-size: 22px;
-  color: #0000FF;
-  margin-left: 53px;
-  margin-top: 12px;
-}
-.ctrlnn1
-{
-  margin-top: -80px;
-  margin-left: 89px;
-}
-.cttext1
-{
   font-family: tahoma;
-  font-size: 22px;
   color: #0000FF;
-  margin-left: 203px;
-  margin-top: 12px;
 }
-.ctrlnn2
+/* ctrl описание */
+.frametextcn
 {
-  margin-top: -80px;
-  margin-left: 158px;
+  box-sizing: border-box;
+  width: 424px;
+  height: 549px;
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 3;
+  grid-row: 20/82;
+  grid-column: 35/66;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
 }
-.cttext2
+.showover7
 {
+  display: block;
+}
+.cloose7
+{
+  margin-left: 310px;
+  margin-top: -23px;
+}
+.nametextcn
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -28px;
+}
+.maintext
+{
+  font-size: 20px;
   font-family: tahoma;
-  font-size: 22px;
-  color: #0000FF;
-  margin-left: 337px;
-  margin-top: 12px;
+  color:#0000FF;
+  margin-left: 16px;
+  margin-top: 16px;
 }
+/* file 2 */
+.ctrlphoto
+{
+  margin-top: -79px;
+  margin-left: 83px;
+}
+.ctrlphototext
+{
+  margin-top: 10px;
+  margin-left: 108px;
+  font-size: 22px;
+  font-family: tahoma;
+  color: #0000FF;
+}
+/* file 3 */
+.ctrlopros
+{
+  margin-top: -79px;
+  margin-left: 149px;
+}
+.ctrloprostext
+{
+  margin-top: 10px;
+  margin-left: 171px;
+  font-size: 22px;
+  font-family: tahoma;
+  color: #0000FF;
+}
+/* фото 2 */
+.framephoto
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 3;
+  margin-top: 256px;
+  margin-left: 187px;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover8
+{
+  display: block;
+}
+.win8
+{
+  width: 583px;
+  height: 374px;
+}
+.cloose8
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.namephoto
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -400px;
+}
+/* опрос */
+.frameopros
+{
+  box-sizing: border-box;
+  width: 612px;
+  height: 415px;
+  background-color: #FFFFFF;
+  display: none;
+  z-index: 3;
+  margin-top: 28px;
+  margin-left: 130px;
+  border-style: solid;
+  border-top-width: 35px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-color: #0000FF;
+}
+.showover9
+{
+  display: block;
+}
+.cloose9
+{
+  margin-top: -31px;
+  margin-left: 498px;
+}
+.nameopros
+{
+  font-size: 20px;
+  font-family: F77 Minecraft;
+  color:#FFFFFF;
+  margin-top: -24px;
+}
+
 
 /* ошибка-вирус */
 #error

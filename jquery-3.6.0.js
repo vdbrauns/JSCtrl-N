@@ -84,3 +84,39 @@ $(document).ready(function(){
     $(".framectrl").toggleClass("showover6")
   })
 })
+// ctrl описание
+$(document).ready(function(){
+  $(".descriptionapp").click(function(){
+    $(".frametextcn").toggleClass("showover7");
+  })
+})
+
+$(document).ready(function(){
+  $(".close7").click(function(){
+    $(".frametextcn").toggleClass("showover7")
+  })
+})
+// ctrl фото
+$(document).ready(function(){
+  $(".ctrlphoto").click(function(){
+    $(".framephoto").toggleClass("showover8");
+  })
+})
+
+$(document).ready(function(){
+  $(".close8").click(function(){
+    $(".framephoto").toggleClass("showover8")
+  })
+})
+// ctrl опрос
+$(document).ready(function(){
+  $(".ctrlopros").click(function(){
+    $(".frameopros").toggleClass("showover9");
+  })
+})
+
+$(document).ready(function(){
+  $(".close9").click(function(){
+    $(".frameopros").toggleClass("showover9")
+  })
+})
