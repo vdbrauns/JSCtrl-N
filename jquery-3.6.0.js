@@ -8,18 +8,31 @@ $(document).ready(function(){
     $(".myModal").toggleClass("showover");
   })
 })
-
 // открытие файла вируса
 $(document).ready(function(){
-  $(".notfound").click(function(){
-    $("#desktop").css("display","none");
-    $("#error").css("display","grid");
-  })
+$(".notfound").click(function(){
+$("#desktop").css("display","none");
+$("#dino").css("display","grid");
+})
 })
 // закрытие файла вирус
 $(document).ready(function(){
-  $(".dino").click(function(){
+  $(".krest").click(function(){
     $("#error").css("display","none");
+    $("#desktop").css("display","grid");
+  })
+})
+// открытие файла вируса
+$(document).ready(function(){
+$(".virus12").click(function(){
+$("#desktop").css("display","none");
+$("#blue").css("display","grid");
+})
+})
+// закрытие файла вирус
+$(document).ready(function(){
+  $(".krest").click(function(){
+    $("#blue").css("display","none");
     $("#desktop").css("display","grid");
   })
 })

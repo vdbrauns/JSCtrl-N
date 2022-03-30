@@ -760,66 +760,31 @@ textarea {
 {
   display: block;
 }
-
-.button1 {
-width: 36px;
-height: 36px;
-border-radius: 50%;
-background-color: #FFFF;
-margin-left: 205px;
-position: relative;
-top: -347px;
-border-width: 6px;
-border-color: #0000FF;
-overflow: hidden;
-}
-.button1::before,
-.button1::after
+.mainradio
 {
+  top: 135px;
   position: absolute;
-  content:;
-  width: 100%;
-  height: 100%;
-  background-color: #0000FF;
-  top: 0;
-  left: -100%;
-  opacity: 0.5;
-  transition: 0.3s;
+    left: 241px;
 }
-.button1:hover::before,
-.button1:hover::after
-{
-  left: 0;
-}
-.button1::after{
-  opacity: 1;
-  transition-delay: 1s;
-}
-
-.button2 {
+.radio_input{
 width: 36px;
 height: 36px;
-border-radius: 50%;
-background-color: #FFFF;
-left: 240px;
-position: absolute;
-top: 245px;
-border-width: 6px;
-border-color: #0000FF;
 }
 
-
-/* ошибка-вирус */
-#error
+.radio_input2 {
+width: 36px;
+height: 36px;
+position: absolute;
+top: 106px;
+}
+#dino
 {
-  display: none;
   background-color:#0000FF;
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(100,1%);
   grid-template-rows: repeat(100, 1%);
-
 }
 .dino
 {
@@ -836,4 +801,54 @@ border-color: #0000FF;
       color:#FFFFFF;
       grid-row: 73/76;
       grid-column: 43/60;
+}
+.krest
+{
+    grid-column: 96/99;
+}
+
+#blue
+{
+  background-color:#0000FF;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(100,1%);
+  grid-template-rows: repeat(100, 1%);
+}
+.krest
+{
+ grid-column: 96/99;
+}
+
+.bluetext
+{
+
+  font-size: 30px;
+  font-family: F77 Minecraft;
+  color: #FFFFFF;
+  margin-top: 169px;
+  margin-left: 104px;
+  width: 413px;
+
+}
+.bluetext1
+{
+  width: 1296px;
+  font-size: 30px;
+  font-family: F77 Minecraft;
+  color: #FFFFFF;
+  margin-top: 245px;
+  margin-left: 94px;
+  line-height: 1.5;
+}
+.bluetext2
+{
+
+  font-size: 30px;
+  font-family: F77 Minecraft;
+  color: #FFFFFF;
+  margin-top: 429px;
+  margin-left: 78px;
+
 }
