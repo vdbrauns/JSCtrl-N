@@ -222,6 +222,16 @@ display: none;
   grid-column: 10/70;
 }
 /* иконки */
+.icon
+{
+  width: 150px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
 .icon1{
   grid-row: 13/27;
   grid-column: 10/18;
@@ -230,9 +240,27 @@ display: none;
 {
   background-color: #1BADFF15;
   border: 3px solid #117AF5;
-  width: 150px;
-  height: 150px;
-
+}
+.iconc1
+{
+  padding: 2px 20px 2px 20px;
+  border: 3px solid rgba(255, 0, 0, 0);
+}
+.iconc1:hover
+{
+  transform: translateX(3px) translateY(3px);
+  background-color: #1BADFF15;
+  border: 3px solid #117AF5;
+}
+.iconc
+{
+  width: 490px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 20px;
 }
 .icon2{
   grid-row: 13/27;
@@ -243,7 +271,7 @@ display: none;
   grid-column: 11/19;
 }
 .icon4{
-  grid-row: 37/51 ;
+  grid-row: 39/52 ;
   grid-column: 23/31;
 }
 .icon5{
@@ -299,21 +327,21 @@ grid-column: 25/30;
   font-size: 27px;
   font-family: tahoma;
   color:#FFFFFF;
-  margin-left: 20px;
+  margin-left: -1px;
 }
 .t2
 {
   font-size: 27px;
   font-family: tahoma;
   color:#FFFFFF;
-  margin-left: 20px;
+  margin-left: -1px;
 }
 .t3
 {
   font-size: 27px;
   font-family: tahoma;
   color:#FFFFFF;
-  margin-left: 20px;
+  margin-left: -1px;
 }
 /* корзина */
 .framekorzina
@@ -342,17 +370,36 @@ grid-column: 25/30;
 {
   margin-top: -31px;
   margin-left: 498px;
+  position: relative;
+}
+.found
+{
+width: 150px;
+  margin-top: 38px;
+  margin-left: 13px;
+
 }
 .notfound
 {
-  margin-top: 35px;
-  margin-left: 35px;
+  margin-left: 26px;
+}
+.found:hover
+{
+  background-color: #1BADFF15;
+  border: 3px solid #117AF5;
 }
 .ftext
 {
-  margin-left: 27px;
+  font-size: 22px;
+  font-family: tahoma;
+  color: #0000FF;
+  width: 122px;
+  margin-left: 5px;
   margin-top: 13px;
+  text-align: center;
+
 }
+
 .notfoundtext
 {
   width: 20%;
@@ -360,10 +407,11 @@ grid-column: 25/30;
 }
 .namekorzina
 {
+  position: relative;
   font-size: 20px;
   font-family: F77 Minecraft;
-  color:#FFFFFF;
-  margin-top: -246px;
+  color: #FFFFFF;
+  top: -246px;
 }
 /* фото 1 */
 .framegraf
@@ -541,13 +589,12 @@ textarea {
 /* file */
 .descriptionapp
 {
-  margin-top: 16px;
-  margin-left: 16px;
+
 }
+
 .descriptionapptext
 {
-  margin-top: 10px;
-  margin-left: 35px;
+  margin-left: 17px;
   font-size: 22px;
   font-family: tahoma;
   color: #0000FF;
@@ -597,13 +644,11 @@ textarea {
 /* file 2 */
 .ctrlphoto
 {
-  margin-top: -79px;
-  margin-left: 83px;
+
 }
 .ctrlphototext
 {
-  margin-top: 10px;
-  margin-left: 108px;
+  margin-left: 25px;
   font-size: 22px;
   font-family: tahoma;
   color: #0000FF;
@@ -611,13 +656,11 @@ textarea {
 /* file 3 */
 .ctrlopros
 {
-  margin-top: -79px;
-  margin-left: 149px;
+
 }
 .ctrloprostext
 {
-  margin-top: 10px;
-  margin-left: 171px;
+  margin-left: 17px;
   font-size: 22px;
   font-family: tahoma;
   color: #0000FF;
@@ -790,7 +833,7 @@ top: 106px;
   background-color:#0000FF;
   width: 100vw;
   height: 100vh;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(100,1%);
   grid-template-rows: repeat(100, 1%);
 }
@@ -817,10 +860,10 @@ top: 106px;
 
 #blue
 {
+  display: none;
   background-color:#0000FF;
   width: 100vw;
   height: 100vh;
-  display: grid;
   grid-template-columns: repeat(100,1%);
   grid-template-rows: repeat(100, 1%);
 }
