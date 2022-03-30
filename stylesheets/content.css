@@ -226,6 +226,14 @@ display: none;
   grid-row: 13/27;
   grid-column: 10/18;
 }
+.icon:hover
+{
+  background-color: #1BADFF15;
+  border: 3px solid #117AF5;
+  width: 150px;
+  height: 150px;
+
+}
 .icon2{
   grid-row: 13/27;
   grid-column: 22/31;
