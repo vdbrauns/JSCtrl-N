@@ -21,7 +21,7 @@ body
 /* главный див */
 #desktop
 {
-  background-color:
+  background-color:#323392;
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -817,6 +817,10 @@ top: 106px;
   grid-template-rows: repeat(100, 1%);
 }
 .krest
+{
+ grid-column: 96/99;
+}
+.krest1
 {
  grid-column: 96/99;
 }

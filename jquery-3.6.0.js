@@ -17,7 +17,7 @@ $("#dino").css("display","grid");
 })
 // закрытие файла вирус
 $(document).ready(function(){
-  $(".krest").click(function(){
+  $(".krest1").click(function(){
     $("#error").css("display","none");
     $("#desktop").css("display","grid");
   })
