@@ -173,3 +173,167 @@ font-size: 30px;
     margin-top: 402px;
   }
 }
+@media only screen and (min-device-width: 414px) and (max-device-width: 768px)
+{
+  #desktop
+  {
+    width: 162vw;
+    height: 162vh;
+  }
+  #menu
+  {
+    grid-row: 92/101;
+  }
+  .start-button
+  {
+    grid-row: 94/97;
+    grid-column: 4/9;
+    width: 133px;
+    height: 92px;
+  }
+  #time
+  {
+    grid-column: -19/-2;
+  }
+  #ru
+  {
+    grid-row: 97/100;
+  }
+  #discrioption
+  {
+    width: 150%;
+    height: 100%;
+    grid-row: 75/85;
+    grid-column: 6/69;
+}
+.icon2
+ {
+    grid-column: 60/80;
+    grid-row: 14/27;
+}
+.icon1
+{
+  grid-column: 17/18;
+}
+.korzina
+{
+  width: 40vw;
+  height: 100vh;
+}
+.k
+{
+  margin-top: 25px;
+}
+.note4
+{
+  width: 46vw;
+  height: 20vh;
+}
+.b
+{
+  margin-top: 15px;
+}
+.icon3
+{
+  grid-row: 33/48;
+  grid-column: 16/19;
+}
+.ctrlp
+{
+  width: 40vw;
+  height: 17vh;
+}
+.icon4
+ {
+   grid-row: 33/48;
+  grid-column: 60/80;
+}
+.paint11
+{
+  width: 40vw;
+  height: 100vh;
+}
+.c
+{
+  margin-top: 32px;
+}
+.icon6
+{
+  grid-column: 17/18;
+  grid-row: 52/64
+}
+.picfile2
+{
+  width: 40vw;
+  height: 17vh;
+}
+.t3
+{
+  margin-top: 28px;
+}
+.icon5
+{
+  display: none;
+}
+.icon7
+{
+grid-column: 60/80;
+  grid-row: 52/64
+}
+.virus12
+{
+  width: 40vw;
+  height: 19vh;
+}
+.t2
+{
+  margin-top: 28px;
+}
+.myModal
+{
+  grid-row: 64/92;
+  grid-column: 2/94;
+}
+.myname
+{
+font-size: 36px;
+}
+.AP
+{
+font-size: 36px;
+}
+.group
+{
+font-size: 36px;
+}
+.line
+{
+width: 546px;
+}
+.line2
+{
+width: 546px;
+}
+.line3
+{
+width: 546px;
+}
+.hse
+{
+width: 50%;
+margin-left: 4%;
+margin-top: 6%;
+}
+.framekorzina
+ {
+    width: 547px;
+    height: 761px;
+    border-top-width: 50px;
+  }
+  .cloose1
+  {
+    margin-top: -38px;
+    margin-left: 433px;
+  }
+
+}
