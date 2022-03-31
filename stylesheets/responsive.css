@@ -1,1 +1,327 @@
+@media (min-width:1441px) and (max-width:2000px) {
 
+  .clock
+  {
+    font-size: 40px;
+  }
+  .ru {
+      font-size: 40px;
+  }
+  .start-button
+  {
+    width: 126px;
+    height: 81px;
+  }
+  .myname
+  {
+      font-size: 36px;
+  }
+  .AP
+  {
+      font-size: 36px;
+  }
+  .group
+  {
+      font-size: 36px;
+  }
+  .line
+  {
+    width: 509px;
+  }
+  .line2
+  {
+    width: 509px;
+  }
+  .line3
+  {
+    width: 509px;
+  }
+  .hse
+  {
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 4%;
+  }
+  .text1
+  {
+    font-size: 36px;
+  }
+  .krest1
+  {
+      margin-left: 1817px;
+  }
+  .dino
+  {
+    margin-left: 580px;
+  }
+  .bluetext1
+  {
+    width: 1688px;
+  }
+}
+@media (min-width:1365px) and (max-width:1440px)
+{
+  .clock
+  {
+    font-size: 36px;
+  }
+  #ru
+  {
+    margin-left: -61px;
+
+  }
+  #time
+  {
+    width: 110%;
+    margin-left: -45px;
+  }
+  .ru
+  {
+      font-size: 36px;
+  }
+  .start-button
+  {
+    width: 120px;
+    height: 79px;
+  }
+  .myModal
+  {
+    width: 130%;
+  }
+  .myname
+  {
+      font-size: 36px;
+  }
+  .AP
+  {
+      font-size: 36px;
+  }
+  .group
+  {
+      font-size: 36px;
+  }
+  .line
+  {
+    width: 472px;
+  }
+  .line2
+  {
+    width: 472px;
+  }
+  .line3
+  {
+    width: 472px;
+  }
+  .hse
+  {
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 4%;
+  }
+  .krest1
+  {
+      margin-left: 1385px;
+  }
+  #dino
+  {
+    display: none;
+    width: 108vw;
+    height: 118vh;
+  }
+  .bluetext1
+  {
+    width: 1474px;
+  }
+  .fail
+  {
+    font-size: 40px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    grid-row: 67/72;
+    grid-column: 39/60;
+    width: 25vw;
+  }
+}
+  @media (min-width:1010px) and (max-width:1364px)
+  {
+    .clock
+    {
+      font-size: 27px;
+    }
+    #ru
+    {
+      margin-left: -49px;
+
+    }
+    #time
+    {
+      width: 130%;
+      margin-left: -38px;
+    }
+    .ru
+    {
+        font-size: 27px;
+    }
+    .start-button
+    {
+      width: 99px;
+      height: 59px;
+    }
+    .logoot
+    {
+    width: 75%;
+    }
+    .myModal
+    {
+      width: 130%;
+    }
+    .myname
+    {
+        font-size: 27px;
+    }
+    .AP
+    {
+        font-size: 27px;
+    }
+    .group
+    {
+        font-size: 27px;
+    }
+    .line
+    {
+      width: 358px;
+    }
+    .line2
+    {
+      width: 358px;
+    }
+    .line3
+    {
+      width: 358px;
+    }
+    .hse
+    {
+      width: 40%;
+      margin-top: 2%;
+      margin-left: 4%;
+    }
+    .icon2
+    {
+      grid-column: 28/34;
+    }
+    .icon4
+    {
+      grid-column: 28/34;
+    }
+    .icon7
+    {
+      grid-column: 81/87;
+    }
+    .text1
+    {
+      font-size: 24px;
+    }
+  #dino
+  {
+    width: 141vw;
+    height: 141vh;
+  }
+  #blue
+  {
+    width: 1411px;
+  }
+  .framepic
+  {
+    grid-column: 40/83;
+
+  }
+  .framectrl
+  {
+    grid-column: 20/53;
+  }
+}
+@media (min-width:766px) and (max-width:1000px)
+{
+  .icon2
+  {
+    grid-column: 32/45;
+  }
+  .icon4
+  {
+    grid-column: 32/45;
+  }
+  #discrioption
+  {
+    width: 120%;
+    height: 100%;
+    grid-row: 70/85;
+    grid-column: 10/70;
+  }
+  .text1
+  {
+    font-size: 24px;
+  }
+  .icon6
+  {
+    grid-column: 60/79;
+  }
+}
+.start-button
+{
+  grid-column: 4/10;
+}
+#ru
+{
+  grid-column: -25/-20;
+}
+#time
+{
+  /* grid-column: -19/-6; */
+}
+.myModal
+{
+  grid-row: 65/90;
+  grid-column: 2/57;
+}
+.framenote
+{
+  grid-column: 10/50;
+}
+.framectrl
+{
+  grid-column: 3/40;
+}
+.framepic
+{
+  grid-row: 39/69;
+  grid-column: 10/50;
+}
+.framegraf
+{
+  grid-column: 20/50;
+}
+.hse {
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 45%;
+}
+#dino
+{
+  width: 185vw;
+  height: 186vh;
+}
+.fail
+{
+  grid-row: 68/72;
+  grid-column: 34/76;
+}
+.dino
+{
+  margin-top: 547px;
+}
+#blue
+{
+  width: 180vw;
+  height: 186vh;
+}
+}

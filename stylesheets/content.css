@@ -148,7 +148,7 @@ display: none;
   width: 100%;
   height: 100%;
   grid-row: 94/97 ;
-  grid-column: -9/-1;
+  grid-column: -12/-2;
 }
 #ru
 {
@@ -830,10 +830,10 @@ top: 106px;
 }
 #dino
 {
+  display:none;
   background-color:#0000FF;
   width: 100vw;
   height: 100vh;
-  display: none;
   grid-template-columns: repeat(100,1%);
   grid-template-rows: repeat(100, 1%);
 }
@@ -862,8 +862,8 @@ top: 106px;
 {
   display: none;
   background-color:#0000FF;
-  width: 100vw;
-  height: 100vh;
+  width: 124vw;
+  height: 150vh;
   grid-template-columns: repeat(100,1%);
   grid-template-rows: repeat(100, 1%);
 }
@@ -883,7 +883,7 @@ top: 106px;
   font-family: F77 Minecraft;
   color: #FFFFFF;
   margin-top: 169px;
-  margin-left: 104px;
+  margin-left: 115px;
   width: 413px;
 
 }
