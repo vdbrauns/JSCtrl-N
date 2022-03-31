@@ -31,7 +31,7 @@ width: 509px;
 }
 .hse
 {
-width: 50%;
+width: 30%;
 margin-left: 4%;
 }
 .bluetext1
@@ -79,7 +79,7 @@ font-size: 30px;
 }
 .hse
 {
-  width: 43%;
+  width: 30%;
 }
 .dino
 {
@@ -94,6 +94,10 @@ font-size: 30px;
   }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
+  .hse
+  {
+    width: 30%;
+  }
   .text1
   {
     font-size: 22px;
@@ -470,5 +474,36 @@ margin-top: 6%;
 .dino {
     margin-left: 306px;
     margin-top: 763px;
+}
+.framephoto {
+    box-sizing: border-box;
+    width: 612px;
+    height: 415px;
+    background-color: #FFFFFF;
+    display: none;
+    z-index: 3;
+    margin-top: 331px;
+    margin-left: 46px;
+    border-style: solid;
+    border-top-width: 35px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    border-color: #0000FF;
+}
+.frameopros {
+    box-sizing: border-box;
+    width: 691px;
+    height: 580px;
+    background-color: #FFFFFF;
+    z-index: 3;
+    margin-top: 352px;
+    margin-left: -2px;
+    border-style: solid;
+    border-top-width: 35px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    border-color: #0000FF;
 }
 }
