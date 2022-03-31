@@ -335,5 +335,140 @@ margin-top: 6%;
     margin-top: -38px;
     margin-left: 433px;
   }
-
+  .notfound
+   {
+    width: 38vw;
+  }
+  .ftext {
+      font-size: 27px;
+      font-family: tahoma;
+      color: #0000FF;
+      width: 151px;
+      margin-left: 15px;
+      margin-top: 6px;
+      text-align: center;
+  }
+  .namekorzina {
+    position: absolute;
+    font-size: 27px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    top: -40px;
+}
+.framenote
+ {
+    width: 547px;
+    height: 761px;
+    border-top-width: 50px;
+    grid-column: 12/80;
+  }
+  .cloose4 {
+    margin-top: -36px;
+    margin-left: 432px;
+}
+.namenote {
+    font-size: 24px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    margin-top: -25px;
+}
+.dotext {
+    width: 509px;
+    height: 656px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #f8f8f8;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 24px;
+    color: #0000FF;
+    resize: none;
+}
+.framectrl
+ {
+    width: 547px;
+    height: 761px;
+    border-top-width: 50px;
+    grid-column: 12/80;
+  }
+  .namectrl {
+    font-size: 24px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    margin-top: -30px;
+}
+.cloose6 {
+    margin-top: -37px;
+    margin-left: 425px;
+    position: absolute;
+}
+.p
+{
+  margin-top: 14px;
+}
+.framepic
+ {
+    width: 547px;
+    height: 761px;
+    border-top-width: 50px;
+    grid-column: 12/80;
+  }
+  .namepic {
+    font-size: 24px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    margin-top: -380px;
+}
+.cloose3 {
+    margin-top: -37px;
+    margin-left: 425px;
+    position: absolute;
+}
+.win3 {
+    width: 500px;
+    height: 337px;
+}
+#blue {
+  width: 405vw;
+  height: 412vh;
+  }
+  .bluetext {
+    font-size: 64px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    margin-top: 169px;
+    margin-left: 115px;
+    width: 696px;
+}
+.bluetext1 {
+    width: 1341px;
+    font-size: 60px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    margin-top: 329px;
+    margin-left: 94px;
+    line-height: 1.5;
+}
+.bluetext2 {
+    font-size: 60px;
+    font-family: F77 Minecraft;
+    color: #FFFFFF;
+    margin-top: 1072px;
+    margin-left: 78px;
+}
+.krest {
+    width: 40vw;
+    margin-left: 1492px;
+    position: absolute;
+}
+#help {
+    display: none;
+    background-color: #0000FF;
+    width: 199vw;
+    height: 200vh;
+}
+.dino {
+    margin-left: 306px;
+    margin-top: 763px;
+}
 }
