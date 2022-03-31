@@ -65,11 +65,11 @@
   {
     font-size: 36px;
   }
-  #ru
+  /* #ru
   {
     margin-left: -61px;
 
-  }
+  } */
   #time
   {
     width: 110%;
@@ -148,11 +148,11 @@
     {
       font-size: 27px;
     }
-    #ru
+    /* #ru
     {
       margin-left: -49px;
 
-    }
+    } */
     #time
     {
       width: 130%;
@@ -270,10 +270,10 @@
 {
   grid-column: 4/10;
 }
-#ru
+/* #ru
 {
   grid-column: -25/-20;
-}
+} */
 #time
 {
   /* grid-column: -19/-6; */
