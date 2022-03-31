@@ -8,19 +8,11 @@ $(document).ready(function(){
     $(".myModal").toggleClass("showover");
   })
 })
-// открытие файла вируса
 $(document).ready(function(){
 $(".notfound").click(function(){
 $("#desktop").css("display","none");
-$("#dino").css("display","grid");
+$("#help").css("display","block");
 })
-})
-// закрытие файла вирус
-$(document).ready(function(){
-  $(".krest1").click(function(){
-    $("#error").css("display","none");
-    $("#desktop").css("display","grid");
-  })
 })
 // открытие файла вируса
 $(document).ready(function(){

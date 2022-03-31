@@ -1,327 +1,175 @@
-@media (min-width:1441px) and (max-width:2000px) {
+@media only screen and (min-width: 1440px) and (max-width: 1920px)
+{
+.text1
+{
+  font-size: 34px;
+  width: 865px;
+}
+.myname
+{
+font-size: 36px;
+}
+.AP
+{
+font-size: 36px;
+}
+.group
+{
+font-size: 36px;
+}
+.line
+{
+width: 509px;
+}
+.line2
+{
+width: 509px;
+}
+.line3
+{
+width: 509px;
+}
+.hse
+{
+width: 50%;
+margin-left: 4%;
+}
+.bluetext1
+{
+  width: 1652px;
+}
+.dino
+{
 
-  .clock
-  {
-    font-size: 40px;
+width: 20%;
+    margin-left: 729px;
+    margin-top: 328px;
+}
+}
+
+@media only screen and (min-width: 1224px) and (max-width: 1440px)
+{
+.myModal
+{
+  grid-column: 2/40;
+}
+.line
+{
+width: 486px;
+}
+.line2
+{
+width: 486px;
+}
+.line3
+{
+width: 486px;
+}
+.myname
+{
+font-size: 30px;
+}
+.AP
+{
+font-size: 30px;
+}
+.group
+{
+font-size: 30px;
+}
+.hse
+{
+  width: 43%;
+}
+.dino
+{
+  width: 20%;
+  margin-left: 567px;
+  margin-top: 328px;
+}
+#blue
+{
+  width: 124vw;
+}
   }
-  .ru {
-      font-size: 40px;
-  }
-  .start-button
-  {
-    width: 126px;
-    height: 81px;
-  }
-  .myname
-  {
-      font-size: 36px;
-  }
-  .AP
-  {
-      font-size: 36px;
-  }
-  .group
-  {
-      font-size: 36px;
-  }
-  .line
-  {
-    width: 509px;
-  }
-  .line2
-  {
-    width: 509px;
-  }
-  .line3
-  {
-    width: 509px;
-  }
-  .hse
-  {
-    width: 50%;
-    margin-top: 4%;
-    margin-left: 4%;
-  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
   .text1
   {
-    font-size: 36px;
+    font-size: 22px;
+    width: 562px;
   }
-  .krest1
+  #discrioption
   {
-      margin-left: 1817px;
+    grid-row: 70/84;
   }
-  .dino
+  .icon2
   {
-    margin-left: 580px;
+        grid-column: 32/40;
   }
-  .bluetext1
+  .icon4
   {
-    width: 1688px;
+        grid-column: 32/40;
   }
-}
-@media (min-width:1365px) and (max-width:1440px)
-{
-  .clock
+  .icon6
   {
-    font-size: 36px;
+    grid-column: 59/71;
   }
-  /* #ru
+  #ru
   {
-    margin-left: -61px;
-
-  } */
+    grid-column: -25/-20;
+  }
   #time
   {
-    width: 110%;
-    margin-left: -45px;
-  }
-  .ru
-  {
-      font-size: 36px;
-  }
-  .start-button
-  {
-    width: 120px;
-    height: 79px;
+    grid-column: -19/-2;
   }
   .myModal
   {
-    width: 130%;
-  }
-  .myname
-  {
-      font-size: 36px;
-  }
-  .AP
-  {
-      font-size: 36px;
-  }
-  .group
-  {
-      font-size: 36px;
+    grid-row: 65/90;
+    grid-column: 2/55;
   }
   .line
   {
-    width: 472px;
+  width: 366px;
   }
   .line2
   {
-    width: 472px;
+  width: 366px;
   }
   .line3
   {
-    width: 472px;
+  width: 366px;
   }
-  .hse
+  .framenote
   {
-    width: 50%;
-    margin-top: 4%;
-    margin-left: 4%;
-  }
-  .krest1
-  {
-      margin-left: 1385px;
-  }
-  #dino
-  {
-    display: none;
-    width: 108vw;
-    height: 118vh;
-  }
-  .bluetext1
-  {
-    width: 1474px;
-  }
-  .fail
-  {
-    font-size: 40px;
-    font-family: F77 Minecraft;
-    color: #FFFFFF;
-    grid-row: 67/72;
-    grid-column: 39/60;
-    width: 25vw;
-  }
-}
-  @media (min-width:1010px) and (max-width:1364px)
-  {
-    .clock
-    {
-      font-size: 27px;
-    }
-    /* #ru
-    {
-      margin-left: -49px;
-
-    } */
-    #time
-    {
-      width: 130%;
-      margin-left: -38px;
-    }
-    .ru
-    {
-        font-size: 27px;
-    }
-    .start-button
-    {
-      width: 99px;
-      height: 59px;
-    }
-    .logoot
-    {
-    width: 75%;
-    }
-    .myModal
-    {
-      width: 130%;
-    }
-    .myname
-    {
-        font-size: 27px;
-    }
-    .AP
-    {
-        font-size: 27px;
-    }
-    .group
-    {
-        font-size: 27px;
-    }
-    .line
-    {
-      width: 358px;
-    }
-    .line2
-    {
-      width: 358px;
-    }
-    .line3
-    {
-      width: 358px;
-    }
-    .hse
-    {
-      width: 40%;
-      margin-top: 2%;
-      margin-left: 4%;
-    }
-    .icon2
-    {
-      grid-column: 28/34;
-    }
-    .icon4
-    {
-      grid-column: 28/34;
-    }
-    .icon7
-    {
-      grid-column: 81/87;
-    }
-    .text1
-    {
-      font-size: 24px;
-    }
-  #dino
-  {
-    width: 141vw;
-    height: 141vh;
-  }
-  #blue
-  {
-    width: 1411px;
-  }
-  .framepic
-  {
-    grid-column: 40/83;
+    grid-column: 20/70;
 
   }
   .framectrl
   {
-    grid-column: 20/53;
+    grid-column: 20/60;
   }
-}
-@media (min-width:766px) and (max-width:1000px)
-{
-  .icon2
+  .framepic
   {
-    grid-column: 32/45;
+    grid-column: 10/43;
   }
-  .icon4
+  .framegraf
   {
-    grid-column: 32/45;
+    grid-column: 15/50;
   }
-  #discrioption
+  #blue
   {
-    width: 120%;
-    height: 100%;
-    grid-row: 70/85;
-    grid-column: 10/70;
+    width: 179vw;
+    height: 179vh;
   }
-  .text1
+  #help
   {
-    font-size: 24px;
+    width: 107vw;
+    height: 107vh;
   }
-  .icon6
+  .dino
   {
-    grid-column: 60/79;
+    margin-left: 295px;
+    margin-top: 402px;
   }
-}
-.start-button
-{
-  grid-column: 4/10;
-}
-/* #ru
-{
-  grid-column: -25/-20;
-} */
-#time
-{
-  /* grid-column: -19/-6; */
-}
-.myModal
-{
-  grid-row: 65/90;
-  grid-column: 2/57;
-}
-.framenote
-{
-  grid-column: 10/50;
-}
-.framectrl
-{
-  grid-column: 3/40;
-}
-.framepic
-{
-  grid-row: 39/69;
-  grid-column: 10/50;
-}
-.framegraf
-{
-  grid-column: 20/50;
-}
-.hse {
-    margin-top: 2%;
-    margin-left: 4%;
-    width: 45%;
-}
-#dino
-{
-  width: 185vw;
-  height: 186vh;
-}
-.fail
-{
-  grid-row: 68/72;
-  grid-column: 34/76;
-}
-.dino
-{
-  margin-top: 547px;
-}
-#blue
-{
-  width: 180vw;
-  height: 186vh;
-}
 }
