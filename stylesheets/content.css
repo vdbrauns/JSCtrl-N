@@ -231,6 +231,8 @@ display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+
 
 }
 .icon1{
@@ -262,6 +264,7 @@ display: none;
   align-items: center;
   margin-top: 23px;
   margin-left: 20px;
+  cursor: pointer;
 }
 .icon2{
   grid-row: 13/27;
@@ -378,6 +381,7 @@ grid-column: 25/30;
 width: 150px;
   margin-top: 38px;
   margin-left: 13px;
+  cursor: pointer;
 
 }
 .notfound
